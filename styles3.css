@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'FiraSans-Regular';
+}
+/*--------NAV BAR---------*/
+.navbar {
+    background-color: #0e8d94;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+    flex-wrap: wrap;
+}
+.logo {
+    width: 78px;
+    flex-grow: 2;
+}
+.nav__ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav__list {
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+}
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6em;
+    transition: color .5s;
+}
+.nav__link:hover {
+    color: #08295e;
+}
+.link--button {
+    background-color: #4177ff;
+    padding: 15px 45px;
+    border-radius: 5px;
+    transition: background-color 1.5s;
+}
+.link--button:hover {
+    color: #005795;
+    background-color: #08295e;
+    border: 3px solid #a2cffe;
+    color: #fff;
+}
+/*---------CUERPO DE LA PAGINA----------*/
+main {
+    margin: auto;
+    max-width: 80vw;
+    padding-bottom: 100px;
+}
+.titulo-general{
+    margin-top: 160px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #b1d1fc;
+    padding-bottom: 50px;
+    font-size: 1.5em;
+    text-wrap: balance;
+    color: #194886;
+    font-family: 'FiraSans-SemiBold';
+}
+.card {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 30px;
+    padding-bottom: 50px;
+    background-color: #c4dafa;
+    border-radius: 10px;
+}
+.card__imagen img {
+    width: 450px;
+    min-height: auto;
+    flex-grow: 3;
+    box-shadow: 0 0 5px #000;
+    border-radius: 10px;
+}
+.card__texto {
+    margin: auto;
+    flex-basis: 920px;
+    font-size: 1.2em;
+    text-wrap: pretty;
+    font-weight: 600;
+}
+.card__texto h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2c6cc0;
+    font-family: 'FiraSans-SemiBold';
+}
+/*------------PIE DE PAGINA---------------*/
+.footer {
+    background-color: #000;
+    max-width: 100%;
+}
+.footer__textos {
+    color: #fff;
+    padding: 150px;
+    text-align: center;
+    font-size: 1.1em;
+}
+.footer__titulo {
+    margin-bottom: 20px;
+    transition: color .8s;
+}
+.footer__titulo:hover {
+    color: #abe4ff;
+}
+.footer__parrafo {
+    color: #fff;
+    transition: color .8s;
+}
+.footer__parrafo:hover {
+    color: #abe4ff;
+}
+
+
+
+
